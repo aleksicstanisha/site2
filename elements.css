@@ -1,0 +1,1282 @@
+
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 40px;
+    
+}
+.nav {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: #5385c1;
+    z-index: 1;
+    top: 0%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.nav ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.semos a {
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    left: 10%;
+    padding-top: 10px;
+    font-weight: 500;
+    
+    
+}
+
+.menu a {
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    padding-right: 1%;
+    right: 10%;
+    padding-top: 10px;
+    font-weight: 100;
+    
+}
+
+/** Sekcija prva */
+
+.naslov {
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.naslov h1 {
+    color: #5385c1;
+    font-weight: 300;
+    font-size: 28pt;
+}
+
+.naslov p {
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+
+.heading2 {
+    
+    width: 100%;
+    
+    font-family: 'Raleway', sans-serif;
+    
+    
+   
+}
+
+.heading2 h2 {
+    width: 90%;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    font-weight: 300;
+    color: #5385c1;
+}
+
+.heading2 p {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    font-weight: 300;
+    color: #9a9a9a;
+    line-height: 1.5;
+    margin-top: 3%;
+}
+
+
+
+.wrap {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrap h3 {
+    color: #5385c1;
+}
+
+.wrap p {
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+.wrap2 {
+    width: 25%;
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 2%;
+    line-height: 1.5;
+}
+
+.wrap2 h3 {
+    color: #5385c1;
+}
+.wrap2 p {
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+section {
+    overflow: hidden;
+    width: 100%;
+}
+
+.dotted {
+    width: 80%;
+    border-top: dotted 2px #9a9a9a;
+    position: relative;
+    left: 10%;
+    margin: 3% 0;
+}
+
+
+.text span {
+    border: 1px solid #9a9a9a;
+    background-color: lightgray;
+}
+
+.text {
+    width: 35%;
+    position: relative;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px dotted #9a9a9a;
+    float: left;
+}
+
+.text h2 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.text h3 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.text p {
+    color: #9a9a9a;
+}
+
+.naslovi {
+    width: 35%;
+    position: relative;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    color: #5385c1;
+    left: 10%;
+    border-bottom: 2px dotted #9a9a9a;
+
+}
+
+
+.button {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    font-family: 'Raleway', sans-serif;
+    color: #5385c1;
+    margin-top: 3%;
+    
+    
+    
+}
+
+.button div {
+    margin-top: 5%;
+}
+
+.button h3 {
+    font-weight: 300;
+    
+}
+
+.button button {
+    margin-right: 5%;
+    font-family: 'Raleway', sans-serif;
+    
+    text-align: center;
+    
+    
+}
+
+
+
+.button1 {
+    color: white;
+    background-color: #5385c1;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+.button2 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 1% 3%;
+    cursor: pointer;
+    
+}
+
+.button3 {
+    
+    cursor: pointer;
+    background-color: white;
+    padding: 1% 3%;
+}
+
+.button4 {
+    color: white;
+    background-color: #5385c1;
+    padding: 2% 4%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button5 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+.button6 {
+    background-color: white;
+    cursor: pointer;
+}
+
+.button7 {
+    color: white;
+    background-color: #5385c1;
+    padding: 2% 11%;
+    cursor: pointer;
+}
+
+.button8 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 2% 11%;
+    cursor: pointer;
+}
+
+.button9 {
+    background-color: white;
+    padding: 2% 11%;
+    cursor: pointer;
+}
+
+.button10 {
+    color: white;
+    background-color: #5385c1;
+    padding: 1% 7%;
+    cursor: pointer;
+}
+
+.button11 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 1% 7%;
+    cursor: pointer;
+}
+
+.button12 {
+    background-color: white;
+    padding: 1% 7%;
+    cursor: pointer;
+}
+
+.button13 {
+    color: white;
+    background-color: #5385c1;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+.button14 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 1% 3%;
+    cursor: pointer; 
+}
+
+.button15 {
+    background-color: white;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+
+
+.button16 {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color:#9a9a9a;
+    padding: 1% 3%;
+    color: white;
+}
+
+.button17 {
+    background-color:#9a9a9a;
+    padding: 1% 3%; 
+    opacity: 0.6;
+    cursor: not-allowed;
+    color: white;
+}
+
+.button18 {
+    opacity: 0.6;
+    cursor: not-allowed;
+    color: white;
+    cursor: not-allowed;
+    background-color:#9a9a9a;
+    padding: 1% 3%; 
+}
+
+/* Druga sekcija*/
+
+.headingsub {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.headingsub h1 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.headingsub h5 {
+    color: #9a9a9a;
+}
+
+.headingsub p {
+    color: #9a9a9a;
+    padding-top: 5%;
+}
+
+.headingsub h3 {
+    color: #5385c1;
+    font-weight: 300;
+   
+}
+
+.headingsub h4 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.form {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3%;
+
+}
+
+.form h3 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.form div {
+    margin-top: 5%;
+    
+    
+}
+
+.ime input {
+    width: 40%;
+    margin-right: 5%;
+    background-color: lightgrey;
+    padding: 1% 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.email input {
+    width: 86%;
+    background-color: lightgrey;
+    padding: 1% 0;
+}
+
+.radio input[type=radio]{
+    display: none;
+}
+.radio label {
+    color: #9a9a9a;
+}
+
+.radio input[type=radio] + label:before{
+    content : "\2714";
+    margin-right: 0.5%;
+    border: 1px solid #9a9a9a;
+    border-radius: 50%;
+    padding: 0.5% 1.2%;
+    color: transparent;
+    background-color: lightgray;
+}
+
+.radio input[type=radio]:checked + label:before{
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+    color: #fff;
+}
+
+.checkbox input[type=checkbox]{
+    display: none;
+}
+.checkbox label {
+    color: #9a9a9a;
+}
+
+.checkbox input[type=checkbox] + label:before{
+    content : "\2714";
+    margin-right: 0.5%;
+    border: 1px solid #9a9a9a;
+    padding: 0.5% 1.2%;
+    color: transparent;
+    background-color: lightgray;
+    
+}
+
+.checkbox input[type=checkbox]:checked + label:before{
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+    color: #fff;
+}
+
+
+.textarea textarea {
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 150px;
+    
+   
+}
+
+.submit {
+    background-color: #5a5a5a;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+.reset {
+    background-color:white;
+    border-color: #9a9a9a;
+    font-family: 'Raleway', sans-serif;
+    padding: 1% 3%;
+    cursor: pointer;
+}
+
+.textarea input {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.search {
+    border-top: 2px dotted #9a9a9a;
+    
+}
+
+.search input {
+    margin-top: 3%;
+    width: 70%;
+    margin-right: 3%;
+    padding: 1% 0;
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Listi*/
+
+.lists {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif; 
+    
+    
+}
+
+.lists div {
+    display: table-cell;
+    
+    
+    
+    
+}
+
+.lists dl {
+    list-style-type: none;
+    
+}
+
+.dl2 {
+    border-top: 2px dotted #9a9a9a;
+    border-bottom: 2px dotted #9a9a9a;
+    margin: 2% 0;
+    padding: 3% 0;
+}
+
+.lists h3  {
+    color: #5385c1;
+    font-weight: 300;
+}
+.lists h4  {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.lists ul , ol , dl {
+    color: #9a9a9a;
+   
+}
+
+.lists img {
+    padding-right: 2%;
+}
+
+.image {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 1%;
+    
+}
+
+.image h3 , .image h4 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+
+.small {
+    float: left;
+    width: 30%;
+    margin-top: 3%;
+    margin-right: 12px;
+    
+    
+}
+
+.small img {
+    width: 100%;
+    
+}
+
+.big img {
+    width: 100%;
+}
+
+
+/* definition and left & right*/
+
+.definition {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif; 
+
+}
+
+.definition h3 {
+    color: #5385c1;
+    font-weight: 300;
+    
+}
+
+.definition h4 {
+    padding-top: 2%;
+    color: #9a9a9a;
+    
+}
+
+.definition p {
+    color: #9a9a9a;
+    padding-left: 7%;
+}
+
+.left_right {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 2%;
+    
+}
+
+.left_right h3 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.left_right p {
+    color: #9a9a9a;
+    
+}
+
+.levo {
+    padding-bottom: 5%;
+}
+
+.levo img {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.desno img {
+    float: right;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.action {
+    padding-top: 2%;
+    
+}
+
+.action button {
+    margin-right: 3%;
+    margin-bottom: 5%;
+    font-family: 'Raleway', sans-serif; 
+
+}
+
+.malo1 {
+    background-color: #5385c1;
+    cursor: pointer;
+    color: white;
+}
+
+.malo2 {
+    cursor: pointer;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+.malo3 {
+    cursor: pointer;
+    
+    background-color: #fff;
+}
+
+
+
+
+.left_buttons {
+    width: 25%;
+    position: relative;
+    float: left;
+    
+    
+    
+}
+
+.left_buttons button {
+    display: block;
+    cursor: pointer;
+}
+
+.right_buttons {
+    width: 25%;
+    position: relative;
+    float: right;
+}
+
+.right_buttons button {
+    display: block;
+    cursor: pointer;
+    
+}
+
+.left_buttons2 {
+    width: 25%;
+    position: relative;
+    float: left;
+    
+}
+
+.left_buttons2 button {
+    display: block;
+    cursor: pointer;
+    
+}
+
+.right_buttons2 {
+    width: 25%;
+    position: relative;
+    float: right;
+}
+
+.right_buttons2 button {
+    display: block;
+    cursor: pointer;
+    
+}
+
+.but1 {
+    color: white;
+    background-color: #5385c1;
+    padding: 4% 11%;
+}
+
+.but2 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 4% 11%;
+    
+}
+
+.but3 {
+    background-color: white;
+    padding: 4% 11%;
+}
+
+.but4 {
+    color: white;
+    background-color: #5385c1;
+    
+}
+
+.but5 {
+    color: white;
+    background-color: #5a5a5a; 
+    
+}
+
+.but6 {
+    background-color: white;
+   
+}
+
+.but7 {
+    color: white;
+    background-color: #5385c1; 
+    padding: 2% 30%;
+}
+
+.but8 {
+    color: white;
+    background-color: #5a5a5a;
+    padding: 2% 30%;  
+}
+
+.but9 {
+   background-color: white; 
+   padding: 2% 30%;
+}
+
+.citat {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    
+    margin-top: 3%;
+    
+}
+
+.citat div {
+    border-left: 5px solid #9a9a9a;
+}
+
+
+.citat h3 {
+    font-family: 'Raleway', sans-serif; 
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.citat blockquote {
+    color: #9a9a9a;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+
+.box {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.box h3 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+.box p {
+    border: 1px dotted #9a9a9a;
+    padding: 3% 5%;
+    color: #9a9a9a;
+}
+
+.table {
+    width: 35%;
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+   
+    
+
+}
+
+.tabela1 {
+    border-collapse: collapse;
+}
+
+.tabela1 tr:nth-child(2){
+    background-color: lightgray;
+    border-top: 3px solid #9a9a9a;
+    border-bottom: 3px solid #9a9a9a;
+}
+
+.tabela1 tr:nth-child(4){
+    background-color: lightgray;
+    border-top: 3px solid #9a9a9a;
+    border-bottom: 3px solid #9a9a9a;
+}
+
+.tabela1 tr:nth-child(6){
+    background-color: lightgray;
+    border-top: 3px solid #9a9a9a;
+    border-bottom: 3px solid #9a9a9a;
+}
+
+
+    td {
+       padding: 1% 0 ;
+       padding-left: 1%;
+       color: #9a9a9a;
+   } 
+
+   tr {
+       text-align: left;
+   }
+    
+
+
+
+
+
+
+
+.preformated {
+    width: 35%;
+    position: relative;
+    float: right;
+    right: 10%;
+    margin-top: 2%;
+}
+
+.preformated div {
+    border: 1px solid #9a9a9a;
+    text-align: left;
+    background-color: lightgray;
+    color: #9a9a9a;
+
+}
+
+.preformated h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #5385c1;
+}
+
+
+.table h3  , .table h4 {
+    color: #5385c1;
+    font-weight: 300;
+}
+
+
+
+.tabela2 td {
+    border: 1px solid #9a9a9a; 
+    
+}
+
+.tabela2  {
+    border-collapse: collapse;
+    
+}
+
+.tabela2 tr:nth-child(2){
+    background-color: lightgray;
+}
+
+.tabela2 tr:nth-child(4) {
+    background-color: lightgray;
+}
+
+.tabela2 tr:nth-child(6) {
+    background-color: lightgray;
+}
+
+.cena td {
+    border: none;
+}
+
+
+.footer_levo {
+    position: relative;
+    float: left;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer_desno {
+    position: relative;
+    float: right;
+    right: 10%;
+    
+}
+
+.linija {
+    border-top:  2px dotted #9a9a9a;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+}
+
+.footer_levo p {
+    margin: 0;
+    padding-bottom: 15%;
+    color: #9a9a9a;
+
+}
+    
+/* media screen*/
+
+@media only screen and
+(max-width:768px) {
+     .wrap {
+        width: 100%;
+      text-align: center;
+      max-width: 80%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .heading2 {
+        width: 100%;
+      text-align: center;
+      
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .heading2 h2 {
+        width: 100%;
+      text-align: center;
+      max-width: 80%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .wrap2 {
+        width: 100%;
+      text-align: center;
+      max-width: 80%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .text , .naslovi , .button , .headingsub , .form , .image, .lists
+      , .definition , .left_right , .citat , .box , .table , .preformated
+       , .linija , .footer_levo , .footer_desno {
+        width: 100%;
+      text-align: center;
+      max-width: 80%;
+      
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .button button {
+        padding: 2% 30%;
+     width: 100%;
+     margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .ime input{
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .email input{
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .radio label{
+      width: 100%;
+      display: block;
+      margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .checkbox label{
+      width: 100%;
+      display: block;
+      margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .textarea input{
+      width: 100%;
+      display: block;
+     
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .search input , .search button{
+      width: 100%;
+      display: block;
+     margin-bottom: 5%;
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .small {
+        width: 100%;
+        max-width: 27%;
+        position: relative;
+        float: left;
+        left: 6%;
+     
+    }
+
+    
+}
+
+@media only screen and
+(max-width:768px) {
+     .big {
+        width: 100%;
+        max-width: 88%;
+     text-align: center;
+     position: relative;
+        float: left;
+        left: 6%;
+    }
+
+    
+}
+
+
+@media only screen and
+(max-width:768px) {
+     .action {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .action button {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .left_buttons {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .right_buttons{
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .left_buttons button {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .right_buttons button {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .right_buttons2 {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .left_buttons2 {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .left_buttons2 button {
+    
+     width: 100%;
+     
+    }
+
+}
+
+@media only screen and
+(max-width:768px) {
+     .right_buttons2 button {
+    
+     width: 100%;
+     
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
